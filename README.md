@@ -1,14 +1,14 @@
-# Generate NCIT code based ICDO <-> NCIT mapping
+# Assignment of NCIT "neoplasm core" codes in arrayMap/Progenetix MongoDB collections, based ICDO (morphology + topography) <-> NCIT mapping
 
 This script needs a mapping file as an input, the file should be provided with either as an URL(google doc) or a local file.
 
-* For google doc, please use the following to convert to CSV format : 
+* The script has a built-in defaut URL of the mapping file, but users can specify an alternative source.
 
-`https://<i></i>edocs.google.com/spreadsheets/d/[your file id]/export?format=csv`
+* When using a Google spreadsheet, please use the following address style to download the document and convert this to a CSV input file:
 
-* For locoal file, please also privde in CSV format.
+`https://docs.google.com/spreadsheets/d/[your file id]/export?format=csv`
 
-* The script has a built-in defaut URL of the mapping file, user can specifiy a file source with arguments.
+* For direct use of a local file, please provide this in CSV format.
 
 * The script also generates a log file, the defualt name is log.txt
 
@@ -20,4 +20,4 @@ Options:
   -d, --database TEXT    Use a specific database
   -c, --collection TEXT  Use a specific collection
   --help                 Show this message and exit.
-  ```
+```
