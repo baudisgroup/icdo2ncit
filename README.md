@@ -1,6 +1,6 @@
 # Generate NCIT code based ICDO <-> NCIT mapping
 
-This script needs a mapping file as an input, the file should be provided either as an URL(google doc) or a local file.
+This script needs a mapping file as an input, the file should be provided with either as an URL(google doc) or a local file.
 
 * For google doc, please use the following to convert to CSV format : 
 
@@ -8,7 +8,7 @@ This script needs a mapping file as an input, the file should be provided either
 
 * For locoal file, please also privde in CSV format.
 
-* The script has a built in defaut url for the mapping file, user can specifiy a file source with arguments.
+* The script has a built-in defaut URL of the mapping file, user can specifiy a file source with arguments.
 
 * The script also generates a log file, the defualt name is log.txt
 
