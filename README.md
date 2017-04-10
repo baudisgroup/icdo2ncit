@@ -1,8 +1,8 @@
 # Assignment of NCIT "neoplasm core" codes in arrayMap/Progenetix MongoDB collections, based ICDO (morphology + topography) <-> NCIT mapping
 
-This script needs a mapping file as an input, the file should be provided with either as an URL(google doc) or a local file.
+This script needs a mapping file as an input, the file should be provided with either as an URL or a local file.
 
-* The script has a built-in defaut URL of the mapping file, but users can specify an alternative source.
+* The script has a built-in [default URL](https://docs.google.com/spreadsheets/d/1MDTs7jD1D8fSlYfp3lBzCqk8U9F27QxF1PMN40nu454/export?format=csv) of the mapping file, but users can specify an alternative source.
 
 * When using a Google spreadsheet, please use the following address style to download the document and convert this to a CSV input file:
 
